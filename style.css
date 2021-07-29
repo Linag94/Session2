@@ -8,7 +8,7 @@ body {
 
 /* Style the header */
 header {
-  background-color: #666;
+  /* background-color: #666; */
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -20,6 +20,7 @@ nav {
   float: left;
   width: 30%;
   padding: 20px;
+  color: #666;
 }
 
 /* Style the list inside the menu */
@@ -45,7 +46,7 @@ section::after {
 
 /* Style the footer */
 footer {
-  background-color: #777;
+  /* background-color: #777; */
   padding: 10px;
   text-align: center;
   color: white;
@@ -76,11 +77,29 @@ span{
 /* helen sytle */
 .p1 {
    font-family: "Times New Roman", Times, serif; 
+   outline: #4CAF50 solid 0px;
+   margin: auto;  
+   padding: 15px;
+   text-align: center;
+ 
   }
 
   img { 
     border: 5px solid #555;border-color: lightgreen;
   }
+
+  /* codoing */
+
+  .coding {
+    background-image: url('https://media.giphy.com/media/82fRDB2U2rC8THgPZ5/giphy.gif');
+    background-size:auto;
+     height: 100vh;
+    padding:0;
+    margin:0; 
+  }
+  /* .coding:hover{
+    background-color:palevioletred;
+  } */
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
   nav, article {
