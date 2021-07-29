@@ -73,8 +73,14 @@ span{
 .ellie {
   background-color: cyan;
 }
+/* helen sytle */
+.p1 {
+   font-family: "Times New Roman", Times, serif; 
+  }
 
-
+  img { 
+    border: 5px solid #555;border-color: lightgreen;
+  }
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
   nav, article {
