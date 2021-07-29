@@ -97,6 +97,16 @@ span{
     padding:0;
     margin:0; 
   }
+
+  /* index */
+  .index {
+    background-image: url(' https://media.giphy.com/media/peAFQfg7Ol6IE/giphy.gif');
+    background-size:cover;
+     height: 100vh;
+    padding:0;
+    margin:0; 
+   
+  }
   /* .coding:hover{
     background-color:palevioletred;
   } */
